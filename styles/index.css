@@ -1,0 +1,420 @@
+@media(max-width: 950px){ 
+    .desktop{
+        display: none;
+    }
+    /* стили для мобильной версии */
+    html{
+        /* overflow: hidden; */
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        /* overflow: hidden; */
+        overflow-x: hidden;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat";
+    }
+    .top_block_mobile{
+        width: 100vw;
+        
+    }
+    .top_img{
+        width: 100vw;
+        margin-top: -10px;
+    }
+    .humburger{
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        display: flex;
+        display: flex;
+        background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        width: 100vw;
+        min-height: 100px;
+        z-index: 999;
+        align-items: center;
+    }
+    .nav_hamburger{
+        margin-top: -2vh;
+        margin-left: 88vw;
+        
+        width: 7.4vw;
+        
+        text-decoration: none;
+        
+    }
+
+    .modal {
+        display: none; 
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.55); 
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        color: white;
+       
+    }
+    
+    .modal-content {
+        position: absolute;
+        bottom: 10vh;
+        left: 5vw;
+        font-family: Montserrat;
+    }
+    .modalbtn{
+        display: flex;
+        font-family: Montserrat;
+    }
+    .downloadapp{
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 500px;
+        border: 0.5px solid;
+        border-color: #fff;
+        color: #fff;
+        height: 50px;
+        width: 72vw;
+        margin-top: 6vw;
+        font-family: Montserrat;
+        font-size: 4.5vw;
+        font-weight: 300;
+    }
+    .close {
+        justify-content: center;
+        align-items: center;
+        margin-top: 6vw;
+        padding: 8px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 5vw;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        height: 50px;
+        width: 50px;
+        border-radius: 500px;
+        border: 0.5px solid #fff;
+        cursor: pointer;
+        background-color: #ffffff00;
+    }
+    li{
+        margin-top: 2.5vw;
+        font-family: Montserrat;
+        font-size: 5vw;
+        font-weight: 300;
+    }
+    .footer{
+        padding: 5vw;
+        background-color: #1D1C1A;
+        height: 1000;
+    }
+    .footertitle{
+        color: #fff;
+    }
+    .footertxt{
+        color: #888374;
+    }
+    .confidential, .userpermission{
+        
+        color: #888374;
+    }
+
+
+
+
+    /* стили для онсовной части сайта */
+    .download_app{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .appimg{
+        width: 100vw;
+        height: auto;
+    }
+    .maindownload{
+        padding: 4vw;
+        border-radius: 500px;
+        border: 0.5px solid #888374;
+        background-color: #fff;
+        justify-content: center;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-family: Montserrat; 
+        font-size: 4vw;
+        
+    }
+
+    .aboutus, .howitwork, .service{
+        margin: 5vw 0vw 0vw 0vw;
+        flex-direction: column;
+    }
+
+    .titletext{
+        font-size: 4vw;
+        font-weight: 400;
+        margin: 0vw 0vw 0vw 5vw;
+    }
+
+    .aboutusimg{
+        width: 100vw;
+        height: auto;
+        margin: 2.5vw 0vw 0vw 0vw;
+    }
+
+    .aboutustext{
+        margin: 2.5vw 5vw 0vw 5vw;
+        font-size: 3vw;
+        font-weight: 400;
+        color: #1D1C1A;
+    }
+
+    .howitworkimg{
+        margin: 2.5vw 0vw 0vw 5vw;
+        width: 90vw;
+        height: auto;
+    }
+
+
+  }
+
+  
+@media (min-width: 950px){
+    /* стили для десктопной и планшетной */
+    body{
+        background-color: rgb(45, 101, 0);
+    }
+    .top_block_mobile, .main_block_mobile, .humburger, .footer, .footertxt, .footertitle, .footerpng, .innovation{
+        display: none;
+    }
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #FEFDF8;
+        font-family: Montserrat;
+        scroll-behavior: smooth;
+    }
+    .macbookair-16
+    {
+        position: relative;
+        height: 832px;
+        width: 100%; /* Занимает 90% доступной ширины экрана */
+        max-width: 1280px; /* Ограничение ширины для удобства чтения контента */
+        margin: 0 auto; /* Центрирует элемент по горизонтали */
+    }
+    .header{
+        display: flex;
+        height: 83px;
+        color: #33322e;
+    }
+    .logoname{
+        display: flex;
+        width: 268px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .logo{
+        height: 44px;
+    }
+    .download{
+        display: flex;
+        width: 268px;
+        justify-content: center;
+        align-items: center;
+    }
+    .line79{
+        display: block;
+        width:1280px;
+        
+        border:1px solid #888374;
+    }
+    .line74{
+    border:1px solid #888374;
+    border-radius: 5px;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 186px;
+    }
+    .dwlbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 147px;
+        height: 33px;
+        border:1px solid #888374;
+        border-radius: 50px;
+    }
+    .firstblock{
+        display: flex;
+    }
+    .leftplate{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 282px;
+        width: 50%;
+    }
+    .rightplate{
+        background-color: #DCD5C3;
+        height: 282px;
+        width: 50%;
+    }
+    .secondblock, .thurdblock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 275px;
+        width: 100%;
+    }
+    
+    .fourblock{
+        padding: 0;
+        margin-top: 20px;
+        height: 546px;
+    }
+    .fiveblock{
+        margin-left: -20px;
+        padding: 0;
+        margin-top: 20px;
+        width: 1062px;
+       
+    }
+    .sixblock{
+        width: 1280px;
+    }
+    .sevenblock{
+        width: 796px;
+    }
+    .blocks{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    
+    
+    
+    .footer{
+        display: flex;
+        height: 120px;
+        color: #33322e;
+    }
+    .bottomblock{
+        display: flex;
+        height: 200px;
+    }
+    .leftplatebtn{
+        width: 640px;
+    }
+    
+    .group63
+    {display: flex;
+        flex-direction: column;
+        margin-left: 55px;
+        margin-top: 20px;
+    width:300px;
+    height:130px;
+    }
+    .frame121
+    {
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:16px;
+    position:relative;
+    }
+    .rights
+    {
+    color:#1d1d1d;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:12px;
+    font-family:Montserrat;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    width:235px;
+    align-self:flex-start;
+    display:flex;
+    position:absolute;
+    left:0px;
+    top:0px;
+    }
+    .companyname
+    {
+    color:#1d1d1d;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:12px;
+    font-family:Montserrat;
+    align-self:flex-start;
+    left:151px;
+    position:absolute;
+    width:100px;
+    display:flex;
+    }
+    .informationooo{
+    color:#1d1d1d;
+    text-align:left;
+    font-size:12px;
+    font-family:Montserrat;
+    width:236px;
+    }
+    
+    
+    
+    .group64{   
+        display: block;
+        font-size: 12px;
+        
+        
+    }
+    .top{
+        margin-top: 20px;
+        margin-left: 129px;
+        display: flex;
+        width: 550px;
+    }
+    .confidential
+    {
+    color:#1d1d1d;
+    text-align:left;
+    font-family:Montserrat;
+    }
+    .userpermission{
+    color:#1d1d1d;
+    margin-left: 20px;
+    font-family:Montserrat;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    
+    }
+    .aboutuser{
+        margin-left: 129px;
+        color:#1d1d1d;
+        font-family:Montserrat;
+        line-height:auto;
+        border-style:hidden;
+        outline:none;
+        width:379px;
+    }
+}
